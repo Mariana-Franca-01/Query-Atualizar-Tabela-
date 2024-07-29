@@ -1,0 +1,1 @@
+CREATE OR REPLACE TABLE br-apps-analytics-eng-prd.db_da_rep_ops.D_DE_PARA_LOJA_JANIS_MAT AS SELECT *      ,CASE WHEN ONDA_CONVERSAO IS NULL THEN 'Não' else 'Sim' end as conversao FROM br-apps-analytics-eng-prd.db_da_rep_ops.D_DE_PARA_LOJA_JANIS
